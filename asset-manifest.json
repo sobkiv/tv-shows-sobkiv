@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a077b67.css",
-    "main.js": "/static/js/main.ff281f05.js",
-    "static/media/not-found.png": "/static/media/not-found.b676c9df3fd192fd0821.png",
-    "service-worker.js": "/service-worker.js",
-    "static/media/logo.png": "/static/media/logo.de92b92729899c7d9b91.png",
-    "index.html": "/index.html",
-    "main.0a077b67.css.map": "/static/css/main.0a077b67.css.map",
-    "main.ff281f05.js.map": "/static/js/main.ff281f05.js.map"
+    "main.css": "/tv-shows-sobkiv/static/css/main.0a077b67.css",
+    "main.js": "/tv-shows-sobkiv/static/js/main.fba6ab87.js",
+    "static/media/not-found.png": "/tv-shows-sobkiv/static/media/not-found.b676c9df3fd192fd0821.png",
+    "service-worker.js": "/tv-shows-sobkiv/service-worker.js",
+    "static/media/logo.png": "/tv-shows-sobkiv/static/media/logo.de92b92729899c7d9b91.png",
+    "index.html": "/tv-shows-sobkiv/index.html",
+    "main.0a077b67.css.map": "/tv-shows-sobkiv/static/css/main.0a077b67.css.map",
+    "main.fba6ab87.js.map": "/tv-shows-sobkiv/static/js/main.fba6ab87.js.map"
   },
   "entrypoints": [
     "static/css/main.0a077b67.css",
-    "static/js/main.ff281f05.js"
+    "static/js/main.fba6ab87.js"
   ]
 }
