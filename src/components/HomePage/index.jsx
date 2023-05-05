@@ -18,7 +18,7 @@ const Home = () => {
   );
 
   const onSearch = () => {
-    if (input.length !== 1) {
+    if (input.length > 1) {
       dispatch(fetchShow(input));
     }
   };

@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { SearchCard } from '../../styled';
 
 export const StyledShowCard = styled(SearchCard)`
+  h1, p {
+    display: flex;
+    justify-content: center;
+  }
   .btns {
     margin-top: 15px;
     display: flex;

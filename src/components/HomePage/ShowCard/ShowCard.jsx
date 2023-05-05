@@ -11,7 +11,7 @@ const ShowCard = ({ id, image, name, rating }) => {
         </div>
       </Link>
       <h1>{name}</h1>
-      <p>{rating || 'N/A'}</p>
+      <p>{rating ? rating + ' IMDB' : null}</p>
     </StyledShowCard>
   );
 };

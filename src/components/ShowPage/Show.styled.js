@@ -20,6 +20,9 @@ export const ShowPageWrapper = styled.div`
 
 export const InfoBlock = styled.div`
   margin-bottom: 40px;
+  position: relative;
+  left: 30px;
+
   h2 {
     margin: 0;
     margin-bottom: 30px;

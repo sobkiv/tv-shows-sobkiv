@@ -5,10 +5,13 @@ export const MainDataWrapper = styled.div`
   margin-bottom: 40px;
 
   img {
-    min-width: 410px;
+    max-width: 410px;
     max-height: 610px;
     border: 1px solid #ddd;
     border-radius: 40px;
+    @media (max-width: 550px) {
+      width: 85%;
+    }
   }
 
   .text-side {
@@ -19,14 +22,15 @@ export const MainDataWrapper = styled.div`
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     flex-wrap: wrap;
     img {
       margin-bottom: 20px;
       margin: auto;
     }
     .text-side {
-      margin-left: 0;
+      margin-right: 30px;
+      margin-left: 30px;
       margin-top: 20px;
     }
   }

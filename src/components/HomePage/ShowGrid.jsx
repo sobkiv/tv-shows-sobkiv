@@ -12,13 +12,14 @@ const ShowGrid = () => {
     <FlexGrid>
       {data.length !== 0 ? (
         data.map(({ show }) => {
+          const { id, name, image, rating: { average} } = show;
           return (
             <ShowCard
-              key={show.id}
-              id={show.id}
-              name={show.name}
-              image={show.image ? show.image.original : IMAGE_NOT_FOUND}
-              rating={show.rating.average}
+              key={id}
+              id={id}
+              name={name}
+              image={image ? image.original : IMAGE_NOT_FOUND}
+              rating={average}
             />
           );
         })

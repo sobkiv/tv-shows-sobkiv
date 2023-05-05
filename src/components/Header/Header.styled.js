@@ -18,13 +18,29 @@ export const HeaderWrapper = styled.div`
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 0 0 15px;
+
+    @media (max-width: 660px) {
+      font-size: 30px;
+    }
+    @media (max-width: 550px) {
+      white-space: pre-wrap;
+      font-size: 20px;
+      content: "Hello\nWorld";
+    }
   }
 
   img {
-    width: 2.2%;
+    width: 43px;
     position: relative;
     left: 40px;
     top: -2px;
     filter: invert(92%);
+    
+    @media (max-width: 660px) {
+      width: 35px;
+    }
+    @media (max-width: 550px) {
+      width: 35px;
+    }
   }
 `;
