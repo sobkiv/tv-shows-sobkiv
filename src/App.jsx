@@ -19,7 +19,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="tv-shows-sobkiv/" element={<Home />} />
             <Route exact path="/show/:id" element={<Show />} />
           </Routes>
         </BrowserRouter>
