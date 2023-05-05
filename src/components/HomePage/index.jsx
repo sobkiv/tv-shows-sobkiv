@@ -18,7 +18,9 @@ const Home = () => {
   );
 
   const onSearch = () => {
-    dispatch(fetchShow(input));
+    if (input.length !== 1) {
+      dispatch(fetchShow(input));
+    }
   };
 
   const onKeyDown = (ev) => {
